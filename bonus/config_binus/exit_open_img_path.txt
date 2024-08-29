@@ -1,0 +1,8 @@
+bonus/textures_bonus/Exit/open/Open1A.xpm
+bonus/textures_bonus/Exit/open/Open1B.xpm
+bonus/textures_bonus/Exit/open/Open1C.xpm
+bonus/textures_bonus/Exit/open/Open1D.xpm
+bonus/textures_bonus/Exit/open/Open1E.xpm
+bonus/textures_bonus/Exit/open/Open1F.xpm
+bonus/textures_bonus/Exit/open/Open1G.xpm
+bonus/textures_bonus/Exit/open/Open1H.xpm

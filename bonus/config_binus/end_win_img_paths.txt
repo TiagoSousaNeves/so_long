@@ -1,0 +1,12 @@
+bonus/textures_bonus/End/win/1.xpm
+bonus/textures_bonus/End/win/2.xpm
+bonus/textures_bonus/End/win/3.xpm
+bonus/textures_bonus/End/win/4.xpm
+bonus/textures_bonus/End/win/5.xpm
+bonus/textures_bonus/End/win/6.xpm
+bonus/textures_bonus/End/win/7.xpm
+bonus/textures_bonus/End/win/8.xpm
+bonus/textures_bonus/End/win/9.xpm
+bonus/textures_bonus/End/win/91.xpm
+bonus/textures_bonus/End/win/92.xpm
+bonus/textures_bonus/End/win/93.xpm

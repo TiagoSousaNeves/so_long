@@ -1,0 +1,4 @@
+bonus/textures_bonus/Player/astronaut/astro_player_A_F.xpm
+bonus/textures_bonus/Player/astronaut/astro_player_B.xpm
+bonus/textures_bonus/Player/astronaut/astro_player_L.xpm
+bonus/textures_bonus/Player/astronaut/astro_player_R.xpm

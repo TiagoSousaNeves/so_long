@@ -1,0 +1,16 @@
+bonus/textures_bonus/Exit/leave/4D.xpm
+bonus/textures_bonus/Exit/leave/4Da.xpm
+bonus/textures_bonus/Exit/leave/5E.xpm
+bonus/textures_bonus/Exit/leave/5Ea.xpm
+bonus/textures_bonus/Exit/leave/6F.xpm
+bonus/textures_bonus/Exit/leave/6Fa.xpm
+bonus/textures_bonus/Exit/leave/7G.xpm
+bonus/textures_bonus/Exit/leave/7Ga.xpm
+bonus/textures_bonus/Exit/leave/8H.xpm
+bonus/textures_bonus/Exit/leave/8Ha.xpm
+bonus/textures_bonus/Exit/leave/9A.xpm
+bonus/textures_bonus/Exit/leave/9Aa.xpm
+bonus/textures_bonus/Exit/leave/91B.xpm
+bonus/textures_bonus/Exit/leave/91Ba.xpm
+bonus/textures_bonus/Exit/leave/92C.xpm
+bonus/textures_bonus/Exit/leave/92Ca.xpm

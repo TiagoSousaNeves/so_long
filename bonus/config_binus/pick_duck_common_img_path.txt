@@ -1,0 +1,16 @@
+bonus/textures_bonus/Player/pick_duck/Common/6.xpm
+bonus/textures_bonus/Player/pick_duck/Common/7.xpm
+bonus/textures_bonus/Player/pick_duck/Common/8.xpm
+bonus/textures_bonus/Player/pick_duck/Common/9.xpm
+bonus/textures_bonus/Player/pick_duck/Common/91.xpm
+bonus/textures_bonus/Player/pick_duck/Common/92.xpm
+bonus/textures_bonus/Player/pick_duck/Common/93.xpm
+bonus/textures_bonus/Player/pick_duck/Common/94.xpm
+bonus/textures_bonus/Player/pick_duck/Common/95.xpm
+bonus/textures_bonus/Player/pick_duck/Common/96.xpm
+bonus/textures_bonus/Player/pick_duck/Common/97.xpm
+bonus/textures_bonus/Player/pick_duck/Common/98.xpm
+bonus/textures_bonus/Player/pick_duck/Common/99.xpm
+bonus/textures_bonus/Player/pick_duck/Common/991.xpm
+bonus/textures_bonus/Player/pick_duck/Common/992.xpm
+bonus/textures_bonus/Player/pick_duck/Common/993.xpm

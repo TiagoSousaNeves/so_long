@@ -1,0 +1,10 @@
+bonus/textures_bonus/BH/spin_agu/0_agu_BHA.xpm
+bonus/textures_bonus/BH/spin_agu/0_agu_BHB.xpm
+bonus/textures_bonus/BH/spin_agu/1_agu_BHA.xpm
+bonus/textures_bonus/BH/spin_agu/1_agu_BHB.xpm
+bonus/textures_bonus/BH/spin_agu/2_agu_BHA.xpm
+bonus/textures_bonus/BH/spin_agu/2_agu_BHB.xpm
+bonus/textures_bonus/BH/spin_agu/4_agu_BHA.xpm
+bonus/textures_bonus/BH/spin_agu/4_agu_BHB.xpm
+bonus/textures_bonus/BH/spin_agu/5_agu_BHA.xpm
+bonus/textures_bonus/BH/spin_agu/5_agu_BHB.xpm

@@ -1,0 +1,5 @@
+bonus/textures_bonus/Player/pick_duck/R/1R.xpm
+bonus/textures_bonus/Player/pick_duck/R/2R.xpm
+bonus/textures_bonus/Player/pick_duck/R/3R.xpm
+bonus/textures_bonus/Player/pick_duck/R/4R.xpm
+bonus/textures_bonus/Player/pick_duck/R/5R.xpm
