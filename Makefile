@@ -5,10 +5,11 @@ EXEC_NAME = so_long
 EXEC_NAME_BONUS = so_long_bonus
 
 LIB_FT_PRINTF = ./lib/ft_printf/ft_printf.a
+LIB_MINILIBX_DIR = lib/minilibx-linux
 
 # Diretórios de includes
-INCLUDES = -Iinclude -I/usr/include -Ilib/minilibx-linux -Ilib/ft_printf -Ilib/get_next_line
-INCLUDES_BONUS = -Ibonus/include_bonus -I/usr/include -Ilib/minilibx-linux -Ilib/ft_printf -Ilib/get_next_line
+INCLUDES = -Iinclude -I/usr/include -I$(LIB_MINILIBX_DIR) -Ilib/ft_printf -Ilib/get_next_line
+INCLUDES_BONUS = -Ibonus/include_bonus -I/usr/include -I$(LIB_MINILIBX_DIR) -Ilib/ft_printf -Ilib/get_next_line
 
 # Diretórios de fontes e objetos
 SRC_DIR = src
@@ -32,12 +33,12 @@ CFLAGS = -Wall -Wextra -Werror -g
 MK_LIB = ar rcs
 
 # Linkagem com as bibliotecas X11, MLX e ft_printf
-MLX_FLAGS = -Llib/minilibx-linux -lmlx -L/usr/lib -lXext -lX11 -lm -lz
+MLX_FLAGS = -L$(LIB_MINILIBX_DIR) -lmlx -L/usr/lib -lXext -lX11 -lm -lz
 
 # Regra principal
-all: download $(EXEC_NAME)
+all: download $(LIB_FT_PRINTF) $(EXEC_NAME)
 
-bonus: download $(EXEC_NAME_BONUS)
+bonus: download $(LIB_FT_PRINTF) $(EXEC_NAME_BONUS)
 
 # Compilar a biblioteca so_long
 $(LIB_NAME): $(OBJS) $(OBJS_GNL)
@@ -52,6 +53,10 @@ $(EXEC_NAME): $(LIB_NAME)
 
 $(EXEC_NAME_BONUS): $(LIB_NAME_BONUS)
 	$(CC) $(OBJS_BONUS) $(LIB_FT_PRINTF) $(LIB_NAME_BONUS) $(MLX_FLAGS) $(INCLUDES_BONUS) -o $(EXEC_NAME_BONUS)
+
+# Compilar a biblioteca ft_printf
+$(LIB_FT_PRINTF):
+	@$(MAKE) -C lib/ft_printf
 
 # Regra para compilar arquivos .c em .o (inclui o get_next_line)
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c | $(OBJ_DIR)
@@ -73,20 +78,24 @@ $(OBJ_DIR_BONUS):
 # Regra para limpar arquivos objeto
 clean:
 	$(RM) $(OBJ_DIR) $(OBJ_DIR_BONUS)
+	@$(MAKE) -C lib/ft_printf clean
 
-# Regra para limpar arquivos objeto e o executável
+# Regra para limpar arquivos objeto, executáveis, ft_printf e toda a pasta MiniLibX
 fclean: clean
 	$(RM) $(LIB_NAME) $(LIB_NAME_BONUS) $(EXEC_NAME) $(EXEC_NAME_BONUS)
+	$(RM) $(LIB_MINILIBX_DIR)
+	@$(MAKE) -C lib/ft_printf fclean
 
 # Regra para recompilar tudo
 re: fclean all
 
 # Baixar e compilar a MiniLibX
 download:
-	@if [ ! -d "lib/minilibx-linux" ]; then \
-		git clone https://github.com/42Paris/minilibx-linux.git lib/minilibx-linux; \
+	@if [ ! -d "$(LIB_MINILIBX_DIR)" ]; then \
+		git clone https://github.com/42Paris/minilibx-linux.git $(LIB_MINILIBX_DIR); \
 	fi
-	@$(MAKE) -C lib/minilibx-linux
+	@$(MAKE) -C $(LIB_MINILIBX_DIR)
 
 # Definir targets como phony
 .PHONY: all bonus clean fclean re download
+
