@@ -6,7 +6,7 @@
 /*   By: tcosta-f <tcosta-f@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/03 05:14:22 by tcosta-f          #+#    #+#             */
-/*   Updated: 2024/08/09 14:51:56 by tcosta-f         ###   ########.fr       */
+/*   Updated: 2024/09/04 19:02:08 by tcosta-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@
 # include <pthread.h>
 # include <limits.h>
 
+char	*ft_reverse_string(char *str, int len, int sig);
 int		ft_printf(const char *format, ...);
 char	**ft_split_printf(const char *s, char c);
 size_t	ft_strlcpy(char *dst, const char *src, size_t size);

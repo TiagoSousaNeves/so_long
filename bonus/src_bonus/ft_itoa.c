@@ -13,7 +13,6 @@
 #include "so_long_bonus.h"
 
 char		*ft_itoa(int n);
-static char	*ft_reverse_string(char *str, int len, int sig);
 static int	ft_how_big_int(long n, int sig);
 static char	*ft_true_itoa(long num, char *str, int sig);
 
@@ -75,24 +74,5 @@ static char	*ft_true_itoa(long num, char *str, int sig)
 	if (num <= 9)
 		str[i++] = num + '0';
 	str[i] = '\0';
-	return (str);
-}
-
-static char	*ft_reverse_string(char *str, int len, int sig)
-{
-	int		i;
-	char	temp;
-	int		tam;
-
-	tam = len - 1;
-	i = sig;
-	while (i <= len / 2 && i < tam)
-	{
-		temp = str[i];
-		str[i] = str[tam];
-		str[tam] = temp;
-		i++;
-		tam--;
-	}
 	return (str);
 }

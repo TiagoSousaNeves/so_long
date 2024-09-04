@@ -6,7 +6,7 @@
 /*   By: tcosta-f <tcosta-f@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/09 08:19:51 by tcosta-f          #+#    #+#             */
-/*   Updated: 2024/08/12 16:22:16 by tcosta-f         ###   ########.fr       */
+/*   Updated: 2024/09/04 19:25:37 by tcosta-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,33 +37,33 @@
 # define WALL_B	"bonus/textures_bonus/Wall/wall_F.xpm"
 
 /*	Config Paths */
-# define ASTRONAUT_PATH			"bonus/config_binus/astronaut_img_path.txt"
-# define ASTRO_ANIME_PATH		"bonus/config_binus/astro_anime_img_path.txt"
-# define ASTRO_TRANSF_PATH		"bonus/config_binus/astro_transf_img_path.txt"
-# define BH_ASTRO_ANIME_PATH	"bonus/config_binus/bh_astro_anime_img_path.txt"
-# define BH_VANISH_PATH			"bonus/config_binus/bh_vanish_img_path.txt"
-# define END_LOSE_PATH			"bonus/config_binus/end_lose_img_paths.txt"
-# define END_NUMBER_PATH		"bonus/config_binus/end_numbers_img_paths.txt"
-# define END_WIN_PATH			"bonus/config_binus/end_win_img_paths.txt"
-# define EXIT_CLOSED_PATH		"bonus/config_binus/exit_closed_img_path.txt"
-# define EXIT_LEAVE_PATH		"bonus/config_binus/exit_leave_img_path.txt"
-# define EXIT_OPEN_PATH			"bonus/config_binus/exit_open_img_path.txt"
-# define EXIT_OPENING_PATH		"bonus/config_binus/exit_opening_img_path.txt"
-# define OPEN_AGU_IMG_PATH		"bonus/config_binus/agu_open_img_path.txt"
-# define PICK_DUCK_B_PATH		"bonus/config_binus/pick_duck_B_img_path.txt"
+# define ASTRONAUT_PATH			"bonus/config_bonus/astronaut_img_path.txt"
+# define ASTRO_ANIME_PATH		"bonus/config_bonus/astro_anime_img_path.txt"
+# define ASTRO_TRANSF_PATH		"bonus/config_bonus/astro_transf_img_path.txt"
+# define BH_ASTRO_ANIME_PATH	"bonus/config_bonus/bh_astro_anime_img_path.txt"
+# define BH_VANISH_PATH			"bonus/config_bonus/bh_vanish_img_path.txt"
+# define END_LOSE_PATH			"bonus/config_bonus/end_lose_img_paths.txt"
+# define END_NUMBER_PATH		"bonus/config_bonus/end_numbers_img_paths.txt"
+# define END_WIN_PATH			"bonus/config_bonus/end_win_img_paths.txt"
+# define EXIT_CLOSED_PATH		"bonus/config_bonus/exit_closed_img_path.txt"
+# define EXIT_LEAVE_PATH		"bonus/config_bonus/exit_leave_img_path.txt"
+# define EXIT_OPEN_PATH			"bonus/config_bonus/exit_open_img_path.txt"
+# define EXIT_OPENING_PATH		"bonus/config_bonus/exit_opening_img_path.txt"
+# define OPEN_AGU_IMG_PATH		"bonus/config_bonus/agu_open_img_path.txt"
+# define PICK_DUCK_B_PATH		"bonus/config_bonus/pick_duck_B_img_path.txt"
 # define PICK_DUCK_COMMON_PATH \
-	"bonus/config_binus/pick_duck_common_img_path.txt"
-# define PICK_DUCK_F_PATH		"bonus/config_binus/pick_duck_F_img_path.txt"
-# define PICK_DUCK_L_PATH		"bonus/config_binus/pick_duck_L_img_path.txt"
-# define PICK_DUCK_R_PATH		"bonus/config_binus/pick_duck_R_img_path.txt"
-# define PLAYER_PATH			"bonus/config_binus/player_img_paths.txt"
-# define PUT_AGU_PATH			"bonus/config_binus/put_agu_img_path.txt"
-# define SPIN_AGU_PATH			"bonus/config_binus/agu_spinning_img_paths.txt"
+	"bonus/config_bonus/pick_duck_common_img_path.txt"
+# define PICK_DUCK_F_PATH		"bonus/config_bonus/pick_duck_F_img_path.txt"
+# define PICK_DUCK_L_PATH		"bonus/config_bonus/pick_duck_L_img_path.txt"
+# define PICK_DUCK_R_PATH		"bonus/config_bonus/pick_duck_R_img_path.txt"
+# define PLAYER_PATH			"bonus/config_bonus/player_img_paths.txt"
+# define PUT_AGU_PATH			"bonus/config_bonus/put_agu_img_path.txt"
+# define SPIN_AGU_PATH			"bonus/config_bonus/agu_spinning_img_paths.txt"
 # define SWALLOW_DUCK_PATH \
-	"bonus/config_binus/ducks_swallowed_img_paths.txt"
+	"bonus/config_bonus/ducks_swallowed_img_paths.txt"
 # define SWALLOW_PLAYER_PATH \
-	"bonus/config_binus/player_swallowed_img_paths.txt"
-# define WALL_SPINNING_PATH		"bonus/config_binus/wall_spinning_img_paths.txt"
+	"bonus/config_bonus/player_swallowed_img_paths.txt"
+# define WALL_SPINNING_PATH		"bonus/config_bonus/wall_spinning_img_paths.txt"
 
 /*	Color Definitions */
 # define AQUA	0x00FFFF
