@@ -4,7 +4,7 @@ LIB_NAME_BONUS = so_long_bonus.a
 EXEC_NAME = so_long
 EXEC_NAME_BONUS = so_long_bonus
 
-LIB_FT_PRINTF = ./lib/ft_printf/ft_printf.a
+LIB_FT_PRINTF = ./lib/ft_printf/libftprintf.a
 LIB_MINILIBX_DIR = lib/minilibx-linux
 
 # Diretórios de includes
